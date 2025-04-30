@@ -33,7 +33,8 @@ API REST: https://www.freetogame.com/api/games
 🧪 Cómo ejecutar
 -
 Clona el repositorio:
-git clone https://github.com/EDiaz210/Asyncronismo-dom.git
+git clone https://github.com/EDiaz210/Asyncronismo-dom.git-
+
 cd Asyncronismo-dom
 Abre el archivo script.js en tu editor de código o ejecuta el script en la consola del navegador.
 
