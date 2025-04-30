@@ -1,16 +1,39 @@
-🕹️ FreeToGame API - Laboratorio de Consumo de API con JavaScript
-Este proyecto es un laboratorio práctico que demuestra cómo consumir una API pública utilizando JavaScript moderno con fetch y funciones asíncronas (async/await). Se conecta a la FreeToGame API para obtener información sobre videojuegos gratuitos disponibles.
+#🕹️ Consumo de API - FreeToGame
+Este repositorio contiene un laboratorio práctico de asincronismo en JavaScript, donde se realiza el consumo de una API pública de videojuegos gratuitos utilizando fetch y async/await.
 
-📦 Contenido
-Conexión a una API REST mediante fetch
+#📚 Descripción
+Se conecta a la API de FreeToGame para obtener una lista de juegos gratuitos disponibles. El objetivo del laboratorio es aprender a consumir APIs REST, manejar promesas y renderizar información desde un servicio externo usando JavaScript moderno.
 
-Manejo de promesas y uso de async/await
+#🚀 Funcionalidades
+Conexión a una API pública mediante fetch
 
-Renderizado básico de los primeros 5 juegos disponibles
+Uso de funciones asíncronas (async/await)
 
-Manejo de errores al consumir la API
+Lectura y manejo de datos JSON
 
-🚀 Cómo ejecutar el proyecto
+Visualización en consola de:
+
+Título del juego
+
+Imagen (URL)
+
+Breve descripción
+
+Manejo básico de errores
+
+🛠️ Tecnologías utilizadas
+JavaScript ES6+
+
+API REST: https://www.freetogame.com/api/games
+
+📦 Estructura del proyecto
+bash
+Copiar
+Editar
+Asyncronismo-dom/
+├── README.md
+└── script.js        # Código principal del laboratorio
+🧪 Cómo ejecutar
 Clona el repositorio:
 
 bash
@@ -18,34 +41,6 @@ Copiar
 Editar
 git clone https://github.com/EDiaz210/Asyncronismo-dom.git
 cd Asyncronismo-dom
-Abre el archivo en tu navegador:
+Abre el archivo script.js en tu editor de código o ejecuta el script en la consola del navegador.
 
-Puedes abrir el archivo .html (si lo tienes) directamente o correr el código JavaScript en la consola del navegador (F12 → Consola).
-
-Visualiza los resultados:
-
-Se imprimirá en la consola del navegador información sobre los primeros juegos devueltos por la API, como el título, imagen y descripción.
-
-📄 Ejemplo de salida en consola
-yaml
-Copiar
-Editar
-🎮 Warframe
-🖼 Imagen: https://www.freetogame.com/g/452/thumbnail.jpg
-📄 Descripción: A cooperative free-to-play third person online action game.
----
-🎮 Fortnite
-🖼 Imagen: https://www.freetogame.com/g/229/thumbnail.jpg
-📄 Descripción: A free-to-play, action building game from Epic Games.
----
-🔧 Tecnologías usadas
-JavaScript ES6+
-
-API REST (https://www.freetogame.com/api/games)
-
-📌 Notas adicionales
-Asegúrate de tener conexión a internet para que el fetch funcione correctamente.
-
-Este laboratorio está orientado a aprender sobre el manejo de APIs, no tiene una interfaz gráfica aún.
-
-La API no requiere autenticación.
+💡 Asegúrate de tener conexión a internet, ya que el código hace llamadas externas a la API.
