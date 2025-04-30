@@ -1,5 +1,5 @@
-#Consumo de API - FreeToGame
--
+# Consumo de API - FreeToGame
+
 Este repositorio contiene un laboratorio práctico de asincronismo en JavaScript, donde se realiza el consumo de una API pública de videojuegos gratuitos utilizando fetch y async/await.
 
 📚 Descripción
